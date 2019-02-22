@@ -1,0 +1,20 @@
+.mike-alert {
+  border: 3px red solid;
+}
+/* стили кнопки */
+.mike-btn {
+  background-color: greenyellow;
+  height: 100px;
+  width: 300px;
+  color: red;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* стили кнопки во время наведения курсора */
+.mike-btn:hover {
+  background-color: red;
+  color: greenyellow;
+}
